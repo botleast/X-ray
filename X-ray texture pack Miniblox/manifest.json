@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Miniblox X-ray Extension",
+  "version": "1.1",
+  "description": "Makes certain blocks invisible for X-ray effect",
+  "permissions": ["declarativeNetRequestWithHostAccess", "scripting"],
+  "host_permissions": [
+    "https://miniblox.io/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Miniblox X-ray Active"
+  }
+}
